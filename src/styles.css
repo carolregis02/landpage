@@ -1,0 +1,37 @@
+html,
+body{
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+.container{
+  background-color: rgba(250,80,80,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  position: absolute;
+  top:25%;
+  bottom:25%;
+  right:20%;
+  left:20%;
+}
+
+header{
+  height: 550px;
+  background-image: url("img/drive.jpg");
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+nav{
+  height: 100px;
+  outline: 1px solid red;
+  background-color: #fff;
+}
+
